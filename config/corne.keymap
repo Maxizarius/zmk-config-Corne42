@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-keymap {
-compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
 default_layer {
 // -----------------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |   F1  |  F2  |  F3  |  F4  |  F5  |   |    |      |  Up  |       |     |  del |
 // | CTRL |   F6  |  F7  |  F8  |  F9  |  F10 |   |    | Left | Down | Right |     |      |
-// | SHFT | BTclr | BT1  | BT2  | F11  | F12 |   |    |      |      |       |     |      |
+// | SHFT | BTclr | BT1  | BT2  | F11  |  F12 |   |    |      |      |       |     |      |
 //                          | GUI |     | SPC |   | ENT |     | ALT |
 bindings = <
 &kp  TAB  &kp F1     &kp F2       &kp F3       &kp F4   &kp F5       &trans &trans   &kp UP     &trans    &trans  &kp DEL
